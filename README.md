@@ -23,7 +23,7 @@ Rubens brings together:
 
 ## Why "Rubens"?
 
-This project is named after the [Rubens](http://en.wikipedia.org/wiki/Rubens_(train)), an express train that linked Brussels and Paris, itself named after Belgian painter [Pieter Paul Rubens](http://en.wikipedia.org/wiki/Peter_Paul_Rubens), a prolific painter who produced many masterpieces together with his large studio.
+This project is named after the [Rubens](http://en.wikipedia.org/wiki/Rubens_(train) "Rubens (train)"), an express train that linked Brussels and Paris, itself named after Belgian painter [Pieter Paul Rubens](http://en.wikipedia.org/wiki/Peter_Paul_Rubens "Pieter Paul Rubens (painter)"), a prolific painter who produced many masterpieces together with his large studio.
 
 ## License
 
