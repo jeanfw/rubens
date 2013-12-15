@@ -1,4 +1,32 @@
 extends ../layout
 
 block content
-  h1 Rubens
+  .container
+    .header
+        ul.nav.nav-pills.pull-right
+          li.active
+            a(href='#') Home
+          li
+            a(href='#') About
+          li
+            a(href='#') Contact
+        h3.text-muted Rubens
+      .jumbotron
+        h1 Rubens
+        p.lead
+          | Rubens combines the best of Locomotive and lots of additional modules into a great Express train.
+        p
+          a.btn.btn-lg.btn-success(href='#', role='button') Get it now
+      .row.marketing
+        .col-lg-6
+          h4 Powerful server
+          p Uses Locomotive, a great MVC framework built on top of Express.
+          h4 Fast database
+          p Relies on MongoDB for document and session storage.
+        .col-lg-6
+          h4 Clean front-end
+          p Elegant, minimalist front-end code with Jade and Compass on top of Bootstrap 3.
+          h4 Solid object modeling
+          p Uses Mongoose schemas to define clean models.
+      .footer
+        p © Jean Friesewinkel 2013

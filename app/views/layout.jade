@@ -1,7 +1,8 @@
 !!! 5 
 html
-  head
-    title #{title}
-    link(rel="stylesheet", href="/stylesheets/screen.css")
+  include head
   body
+    block header
     block content
+    block footer
+    include foot

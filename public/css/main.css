@@ -1,0 +1,82 @@
+/* line 1, ../../app/styles/main.sass */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 5, ../../app/styles/main.sass */
+.header, .marketing, .footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 9, ../../app/styles/main.sass */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* line 12, ../../app/styles/main.sass */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* line 18, ../../app/styles/main.sass */
+.footer {
+  padding-top: 19px;
+  color: #777777;
+  border-top: 1px solid #e5e5e5;
+}
+
+@media (min-width 768px) {
+  /* line 24, ../../app/styles/main.sass */
+  .container {
+    max-width: 730px;
+  }
+}
+/* line 27, ../../app/styles/main.sass */
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* line 30, ../../app/styles/main.sass */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* line 33, ../../app/styles/main.sass */
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* line 37, ../../app/styles/main.sass */
+.marketing {
+  margin: 40px 0;
+}
+
+/* line 39, ../../app/styles/main.sass */
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+@media screen and (min-width 768px) {
+  /* line 43, ../../app/styles/main.sass */
+  .header, .marketing, .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 47, ../../app/styles/main.sass */
+  .header {
+    margin-bottom: 30px;
+  }
+
+  /* line 50, ../../app/styles/main.sass */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
