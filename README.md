@@ -21,6 +21,23 @@ Rubens brings together:
 * Grunt
 * Mocha / Should
 
+## Setup
+
+### Installing
+
+```
+$ git remote add upstream https://github.com/jeanfw/rubens.git
+```
+
+### Updating
+
+```
+$ git fetch upstream
+$ git merge upstream/master
+```
+
+[Learn more](http://blogs.atlassian.com/2013/07/git-upstreams-forks/)
+
 ## Why "Rubens"?
 
 This project is named after the [Rubens][1], an express train that linked Brussels and Paris, itself named after Belgian painter [Pieter Paul Rubens][2], a prolific painter who produced many masterpieces together with his large studio.
